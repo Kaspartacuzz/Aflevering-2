@@ -1,0 +1,92 @@
+/* Stylingen fik jeg en AI til. 
+Det var mest for lige at prøve mig frem og se hvad en AI kunne udrettet, så det kan du godt ignorere */
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #3b5998;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.8em; 
+    color: #222;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1px;
+    column-gap: 35px;
+}
+
+.album {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+}
+
+.album strong {
+    font-size: 1.5em;
+    color: #111;
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.album p {
+    font-size: 0.85em;
+    color: #555;
+    margin: 5px 0;
+}
+
+a {
+    color: #5a9bd5;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: #5a9bd5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #4a8bc5;
+}
+
+p {
+    font-size: 0.5em;
+    color: #333333; 
+    margin-bottom: 0.3em;
+}
+ol li {
+    font-size: 0.5em;
+    color: #333333; 
+    margin-bottom: 0.3em;
+}
